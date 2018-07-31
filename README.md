@@ -1,4 +1,5 @@
 # Mutation Testing
+[![Build Status](https://travis-ci.org/peter-evans/mutation-testing.svg?branch=master)](https://travis-ci.org/peter-evans/mutation-testing)
 
 ## What is mutation testing?
 
