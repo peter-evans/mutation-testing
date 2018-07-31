@@ -1,5 +1,6 @@
 # Mutation Testing
 [![Build Status](https://travis-ci.org/peter-evans/mutation-testing.svg?branch=master)](https://travis-ci.org/peter-evans/mutation-testing)
+[![Coverage Status](https://coveralls.io/repos/github/peter-evans/mutation-testing/badge.svg?branch=master)](https://coveralls.io/github/peter-evans/mutation-testing?branch=master)
 
 ## What is mutation testing?
 
