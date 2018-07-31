@@ -1,0 +1,23 @@
+{
+  "name": "@peter-evans/string-utilities",
+  "version": "0.1.0",
+  "description": "String utilities",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --reporter nyan",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
+    "mutate": "./node_modules/.bin/stryker run"
+  },
+  "author": "Peter Evans",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "istanbul": "^0.4.5",
+    "coveralls": "^3.0.2",
+    "stryker": "^0.25.1",
+    "stryker-api": "^0.18.0",
+    "stryker-javascript-mutator": "^0.8.0",
+    "stryker-mocha-framework": "^0.11.0",
+    "stryker-mocha-runner": "^0.13.0"
+  }
+}
