@@ -48,7 +48,7 @@ This repository contains a mutation testing example using [Stryker](https://stry
 The System under test (SUT) is a Node.js module containing a simple function that returns the longest word in a sentence.
 
 [src/index.js](src/index.js) snippet:
-```
+```javascript
 module.exports.longestWord = function(str) {
   if (typeof str !== "string") return "";
 
@@ -69,7 +69,7 @@ The following test alone provides close to 100% code coverage but doesn't actual
 This test with no assertions is an extreme example and would no doubt be caught by code review, but just shows how easy it is to create poor unit tests.
 
 [test/test.js](test/test.js) snippet:
-```
+```javascript
   it('should return the longest word', function(done) {
     var sentence = 'Ladies and gentlemen, the truth is that mutants are very real, and that they are among us.';
     stringFormatter.longestWord(sentence);
