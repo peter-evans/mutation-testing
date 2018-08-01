@@ -9,6 +9,8 @@ This method is also sometimes described as "fault based testing" as it deliberat
 
 #### How mutation testing frameworks work
 
+<img align="right" width="353" height="580" src="mutation-testing.png">
+
 1. Small syntactic changes are made to the application code. Each change, or mutation, is applied to a separate copy of the code thus creating many versions. These versions of the application code are described as "mutants."
 2. The unit test suite is run against the original application code and all the mutant copies.
 3. The unit test results are compared between the original application code and mutants. If the unit test results are different then that mutant is said to be "killed." If the unit test results are the same, the mutant is said to have "survived."

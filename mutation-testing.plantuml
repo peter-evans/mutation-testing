@@ -1,0 +1,29 @@
+@startuml
+
+title Mutation Testing
+
+start
+
+:Create mutant versions 
+of the application code;
+
+:Execute unit tests 
+ on original code;
+
+repeat
+  :Execute unit tests 
+       on mutant;
+  if (Unit test results match 
+results of original code?) then (yes)
+    :Mutant survived!;
+  else (no)
+    :Mutant killed!;
+  endif
+repeat while (Untested mutants remain?)
+
+:Output tally of killed
+and survived mutants;
+
+stop
+
+@enduml
