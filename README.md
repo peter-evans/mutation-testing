@@ -42,7 +42,7 @@ Mutation testing can provide a metric, albeit not perfect, for the quality of un
 
 ## Mutation Testing Frameworks
 
-See [here](https://github.com/theofidry/mutation-testing) for a good list of frameworks for many different languages.
+See [here](https://github.com/theofidry/awesome-mutation-testing) for a good list of frameworks for many different languages.
 
 ## Mutation testing with [Stryker](https://stryker-mutator.io/)
 
