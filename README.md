@@ -1,4 +1,4 @@
-# Mutation Testing
+# Mutation Testing [<img align="right" alt="The blog of Peter Evans: Mutation Testing" title="View blog post" src="https://peterevans.dev/img/blog-published-badge.svg">](https://peterevans.dev/posts/mutation-testing/)
 [![Build Status](https://travis-ci.org/peter-evans/mutation-testing.svg?branch=master)](https://travis-ci.org/peter-evans/mutation-testing)
 [![Coverage Status](https://coveralls.io/repos/github/peter-evans/mutation-testing/badge.svg?branch=master)](https://coveralls.io/github/peter-evans/mutation-testing?branch=master)
 
