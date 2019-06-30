@@ -13,7 +13,7 @@
   "devDependencies": {
     "mocha": "5.2.0",
     "istanbul": "0.4.5",
-    "coveralls": "3.0.2",
+    "coveralls": "3.0.4",
     "stryker": "0.29.1",
     "stryker-api": "0.21.0",
     "stryker-javascript-mutator": "0.9.1",
