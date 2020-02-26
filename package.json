@@ -11,7 +11,7 @@
   "author": "Peter Evans",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "7.0.1",
+    "mocha": "7.1.0",
     "istanbul": "0.4.5",
     "coveralls": "3.0.9",
     "stryker": "0.35.1",
