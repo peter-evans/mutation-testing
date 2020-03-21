@@ -4,20 +4,23 @@
   "description": "String utilities",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha --reporter nyan",
-    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
-    "mutate": "./node_modules/.bin/stryker run"
+    "test": "nyc mocha --reporter nyan",
+    "mutate": "./node_modules/.bin/stryker run",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peter-evans/mutation-testing.git"
   },
   "author": "Peter Evans",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "7.1.1",
-    "istanbul": "0.4.5",
+    "@stryker-mutator/core": "^3.0.2",
+    "@stryker-mutator/javascript-mutator": "^3.0.2",
+    "@stryker-mutator/mocha-framework": "^3.0.2",
+    "@stryker-mutator/mocha-runner": "^3.0.2",
     "coveralls": "3.0.11",
-    "stryker": "0.35.1",
-    "stryker-api": "0.24.1",
-    "stryker-javascript-mutator": "0.14.1",
-    "stryker-mocha-framework": "0.15.1",
-    "stryker-mocha-runner": "0.17.1"
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.0"
   }
 }
