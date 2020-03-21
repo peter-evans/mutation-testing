@@ -10,7 +10,7 @@ module.exports.longestWord = function(str) {
   if (typeof str !== "string") return "";
 
   var arr = str.match(/\w[a-z]{0,}/gi);
-  if (arr === null || arr.length === 0) return "";
+  if (arr === null) return "";
 
   var result = arr[0];
   for(var x = 1; x < arr.length; x++) {
