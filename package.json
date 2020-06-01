@@ -21,6 +21,6 @@
     "@stryker-mutator/mocha-runner": "3.2.4",
     "coveralls": "3.1.0",
     "mocha": "7.2.0",
-    "nyc": "15.0.1"
+    "nyc": "15.1.0"
   }
 }
