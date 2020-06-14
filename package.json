@@ -6,7 +6,7 @@
   "scripts": {
     "test": "nyc mocha --reporter nyan",
     "mutate": "./node_modules/.bin/stryker run",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "coverage": "nyc report --reporter=lcov"
   },
   "repository": {
     "type": "git",
