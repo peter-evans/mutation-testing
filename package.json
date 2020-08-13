@@ -15,12 +15,12 @@
   "author": "Peter Evans",
   "license": "MIT",
   "devDependencies": {
-    "@stryker-mutator/core": "3.3.0",
-    "@stryker-mutator/javascript-mutator": "3.3.0",
-    "@stryker-mutator/mocha-framework": "3.3.0",
-    "@stryker-mutator/mocha-runner": "3.3.0",
+    "@stryker-mutator/core": "3.3.1",
+    "@stryker-mutator/javascript-mutator": "3.3.1",
+    "@stryker-mutator/mocha-framework": "3.3.1",
+    "@stryker-mutator/mocha-runner": "3.3.1",
     "coveralls": "3.1.0",
-    "mocha": "8.0.1",
+    "mocha": "8.1.1",
     "nyc": "15.1.0"
   }
 }
