@@ -20,7 +20,7 @@
     "@stryker-mutator/mocha-framework": "4.0.0",
     "@stryker-mutator/mocha-runner": "4.6.0",
     "coveralls": "3.1.0",
-    "mocha": "8.3.2",
+    "mocha": "8.4.0",
     "nyc": "15.1.0"
   }
 }
